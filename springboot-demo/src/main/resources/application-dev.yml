@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  application:
+    name: data-forward
+
+constant:
+  forward-url: http://localhost:8087/service/dataReport
+  private-key: AKeds8pc3Kk+dBgt5Lnp3FYbFwo9kV89K5qb7X/hmq4/

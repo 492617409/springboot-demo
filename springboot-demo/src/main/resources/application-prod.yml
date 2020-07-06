@@ -1,0 +1,15 @@
+server:
+  port: 8887
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  application:
+    name: data-forward
+  mvc:
+    async:
+      request-timeout: 30000
+
+constant:
+  forward-url: http://aratekfj.f3322.net:30080/api/protectionInterface/service/dataReport
+  private-key: AKeds8pc3Kk+dBgt5Lnp3FYbFwo9kV89K5qb7X/hmq4/
